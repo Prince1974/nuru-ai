@@ -1,9 +1,5 @@
-import { Agent } from "./types";
-import { AgentEngine } from "../engine/AgentEngine";
+import { AIAgent } from "./types";
 
-
-export function createAgent(agent:Agent){
-
-  return new AgentEngine(agent);
-
+export function createAgent(agent: AIAgent) {
+  return agent;
 }

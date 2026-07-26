@@ -1,12 +1,10 @@
-import { Agent } from "../agents/types";
-
+import { AIAgent } from "../agents/types";
 
 export class AgentEngine {
 
-  private agent: Agent;
+  private agent: AIAgent;
 
-
-  constructor(agent: Agent) {
+  constructor(agent: AIAgent) {
     this.agent = agent;
   }
 
