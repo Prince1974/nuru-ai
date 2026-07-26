@@ -5,6 +5,8 @@ interface AgentCardProps {
   description: string;
   category: string;
   capabilities: string[];
+  icon?: string;
+  color?: string;
 }
 
 

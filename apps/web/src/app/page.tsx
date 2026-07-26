@@ -63,11 +63,13 @@ export default function Home() {
           {agents.map((agent) => (
 
             <AgentCard
-              key={agent.id}
-              name={agent.name}
-              description={agent.description}
-              category={agent.category}
-              capabilities={agent.capabilities}
+            key={agent.id}
+            name={agent.name}
+            description={agent.description}
+            category={agent.category}
+            capabilities={agent.capabilities}
+            icon={agent.icon}
+            color={agent.color}
             />
 
           ))}
